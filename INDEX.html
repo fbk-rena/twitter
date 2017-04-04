@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x" href="assets/favicon.ico">
+    <title>Twitter </title>
+  </head>
+  <body>
+      <header>
+      <h1  align="center" style="color:turquoise ;text-align:center" >Twitter </h1>
+      </header>
+
+      <section align="center">
+          <textarea id="inputTweet" placeholder="Escribe tu tweet" rows="5" cols="35"  oninput="contadorLetras()"></textarea>
+          <article id="contador">Expresate tienes 140 caracteres</article>
+          <p>Escrito por: <input type="text" id="autor" placeholder="Quien eres?"/></P>
+          <button type="submit" onclick="mostrarTweet()">Enviar</button>
+      </section>
+      <section id="nuevoTweet"></section>
+      <script src="js/main.js"></script>
+  </body>
+</html>
